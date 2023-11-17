@@ -89,8 +89,8 @@ export class DomControl {
       currentContainer.insertAdjacentElement('beforeend', this.actualElement)
     }
 
-    this.actualElement.style.top = ''
-    this.actualElement.style.left = ''
+    this.actualElement.style.top = '186px'
+    this.actualElement.style.left = '552px'
 
     this.actualElement.classList.remove('dragged')
     this.actualElement = null
